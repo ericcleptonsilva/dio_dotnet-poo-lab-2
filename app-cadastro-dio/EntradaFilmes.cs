@@ -102,7 +102,7 @@ namespace app_cadastro_dio
 
             if (lista.Count == 0)
             {
-                Console.WriteLine("Nenhuma série cadastrada.");
+                Console.WriteLine("Nenhuma Filme cadastrada.");
                 return;
             }
 
@@ -132,7 +132,7 @@ namespace app_cadastro_dio
             Console.Write("Digite o Ano de Lançamento do Filme: ");
             int entradaAno = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite a Descrição da Série: ");
+            Console.Write("Digite a Descrição do Filme: ");
             string entradaDescricao = Console.ReadLine();
 
             Filmes novoFilme = new Filmes(id: repositorioFilme.ProximoId(),

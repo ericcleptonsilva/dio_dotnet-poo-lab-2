@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "q8Yj179tQNyH8HyFVa6AFdiqJueOiaG8HcOI6Fy1OH/IweYqAirtdSX3SNZxY42Nl8SVOIwAfQs2vYUBcj9ukA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\clept\\source\\repos\\ericcleptonsilva\\dio_dotnet-poo-lab-2\\Dio.Series.Console\\Dio.Series.Console.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto app-cadastro-dio não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O projeto app-cadastro-dio dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "app-cadastro-dio",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

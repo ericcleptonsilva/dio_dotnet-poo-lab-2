@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "app-cadastro-dio/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/app-cadastro-dio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/app-cadastro-dio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "app-cadastro-dio/1.0.0": {
+      "type": "project",
+      "path": "../app-cadastro-dio/app-cadastro-dio.csproj",
+      "msbuildProject": "../app-cadastro-dio/app-cadastro-dio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "app-cadastro-dio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\clept\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\clept\\source\\repos\\ericcleptonsilva\\dio_dotnet-poo-lab-2\\Dio.Series.Console\\Dio.Series.Console.csproj",
+      "projectName": "Dio.Series.Console",
+      "projectPath": "C:\\Users\\clept\\source\\repos\\ericcleptonsilva\\dio_dotnet-poo-lab-2\\Dio.Series.Console\\Dio.Series.Console.csproj",
+      "packagesPath": "C:\\Users\\clept\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\clept\\source\\repos\\ericcleptonsilva\\dio_dotnet-poo-lab-2\\Dio.Series.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\clept\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\clept\\source\\repos\\ericcleptonsilva\\dio_dotnet-poo-lab-2\\app-cadastro-dio\\app-cadastro-dio.csproj": {
+              "projectPath": "C:\\Users\\clept\\source\\repos\\ericcleptonsilva\\dio_dotnet-poo-lab-2\\app-cadastro-dio\\app-cadastro-dio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto app-cadastro-dio não é compatível com netcoreapp3.1 (.NETCoreApp,Version=v3.1). O projeto app-cadastro-dio dá suporte a: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "app-cadastro-dio",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
